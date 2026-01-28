@@ -1,6 +1,12 @@
 body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #ccc;
     margin: 0;
     background-color: #1e1e1e;
+    
 }
 
 h1, 
@@ -15,4 +21,42 @@ ol,
 blockquote {
     margin: 0;
     padding: 0;
+}
+
+.header {
+    padding: 24px 20px;
+}
+
+.cover {
+    padding: 7px 0 30px 20px;
+}
+
+.intro {
+    padding: 30px 20px 38px;
+}
+
+.reasons {
+    padding: 40px 20px;
+}
+
+.how-to {
+    padding: 40px 20px 60px;
+}
+
+.footer {
+    padding: 20px;
+}
+
+.content-section {
+    width: 360px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.content-section_theme_dark{
+    background-color: #131313;
+}
+
+.content-section_theme_bright{
+    background-color: #fee42a;
 }
