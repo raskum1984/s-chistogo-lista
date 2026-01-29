@@ -3,7 +3,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
-    
+    color: #f5f5f5;
     margin: 0;
     background-color: #1e1e1e;
     
@@ -28,7 +28,7 @@ blockquote {
     justify-content: space-between;
     align-items: start;
     padding: 24px 20px;
-    color: #f5f5f5;
+    
 }
 
 .header__logo {
@@ -70,16 +70,17 @@ blockquote {
 
 .cover {
     padding: 7px 0 30px 20px;
+    
 }
 
 .cover__title {
     font-family: 'EB Garamond', Helvetica, sans-serif;
     font-weight: 400;
     font-size: 72px;
-    line-height: 1;
+    line-height: 104%;
     color: #fff;
     background-image: url(../images/cover.svg);
-    background-position:bottom;
+    background-position: bottom;
     background-repeat: no-repeat;
 }
 
@@ -98,11 +99,73 @@ blockquote {
 }
 
 .intro {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     padding: 0 20px 38px;
 }
 
+.intro__heading {
+    display: flex;
+    justify-content: space-between;
+    color: #ccc;
+}
+
+.intro__title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.intro__date {
+    white-space: nowrap;
+}
+
+.intro__main-text {
+    line-height: 1.35;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
 .reasons {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
     padding: 40px 20px;
+    color: #131313;
+}
+
+.content-section__list-accent {
+    font-weight: 700;
+}
+
+.content-section__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    padding-left: 16px;
+    line-height: 1.35;
+    
+}
+
+.content-section__subtitle {
+    font-family: 'EB Garamond', Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.15;
+    
+}
+
+.content-section__subtitle .text-right {
+    padding-right: 0;
+}
+
+.content-section__introduction {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.35;
 }
 
 .how-to {
