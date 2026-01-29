@@ -248,7 +248,19 @@ article {
 }
 
 .footer {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
+    border-top: 1px solid #fee42a;
+}
+
+.footer__links {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.25;
 }
 
 
